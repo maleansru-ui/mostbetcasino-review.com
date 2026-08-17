@@ -1,0 +1,22 @@
+# Юридические страницы (terms / privacy / cookies / responsible-gaming)
+# НЕ закрыты в robots.txt намеренно: на них стоит <meta name="robots" content="noindex">
+# и заголовок X-Robots-Tag. Если запретить обход, робот не сможет прочитать noindex
+# и URL всё равно попадёт в индекс — без описания.
+
+User-agent: *
+Allow: /
+Disallow: /go
+Disallow: /admin/
+
+User-agent: Googlebot
+Allow: /
+Disallow: /go
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Disallow: /go
+Crawl-delay: 2
+
+Host: mostbetcasino-review.com
+Sitemap: https://mostbetcasino-review.com/sitemap.xml
