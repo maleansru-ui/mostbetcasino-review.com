@@ -210,7 +210,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   /* ---------- Партнёрские переходы ---------- */
   /* ЗАМЕНИТЬ ссылку на свою кампанию из партнёрки */
-  var OFFER = 'https://xtsplkmost.com/8BPU?sub1=mostbetcasino-review.com';
+  var OFFER = 'https://qydnte.com/8BPU?sub1=mostbetcasino-review.com';
 
   document.querySelectorAll('a[href="/go"], a[href="/go/"]').forEach(function (link) {
     link.setAttribute('rel', 'nofollow noopener');
